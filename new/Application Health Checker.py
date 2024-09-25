@@ -1,6 +1,6 @@
 import requests
 
-URL = 'http://youtube.com'
+URL = input("Enter your URL here:")
 TIMEOUT = 5
 
 def check_health(url):
